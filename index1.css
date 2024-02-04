@@ -3,7 +3,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 0 0 300px 0;
+  margin: 0;
 }
 
 header {
@@ -21,9 +21,8 @@ header {
   font-family: "Jost", sans-serif;
   font-size: 120px;
   text-align: center;
-  padding-top: 280px;
+  padding: 280px;
   span {
-    padding: 100px;
     color: white;
   }
 }
@@ -31,7 +30,7 @@ header {
   color: #f29d26;
 }
 
-.wreper {
+.box3 {
   display: flex;
   justify-content: center;
   gap: 25px;
