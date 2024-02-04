@@ -1,0 +1,39 @@
+body {
+  background-image: url(./Images/ferari.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 0 300px 0;
+}
+
+header {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: right;
+  padding: 30px;
+  span {
+    padding: 30px;
+    color: white;
+  }
+}
+
+#TY {
+  font-family: "Jost", sans-serif;
+  font-size: 120px;
+  text-align: center;
+  padding-top: 280px;
+  span {
+    padding: 100px;
+    color: white;
+  }
+}
+#TYORANGE {
+  color: #f29d26;
+}
+
+.wreper {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 130px;
+}
