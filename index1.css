@@ -3,7 +3,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 0;
+  margin-bottom: 20%;
 }
 
 header {
@@ -14,14 +14,20 @@ header {
   span {
     padding: 30px;
     color: white;
+    position: relative;
   }
 }
 
-#TY {
-  font-family: "Jost", sans-serif;
-  font-size: 120px;
+.TYCENTER {
   text-align: center;
-  padding: 280px;
+}
+
+#TY {
+  position: relative;
+  font-family: "Jost", sans-serif;
+  font-size: 100px;
+  text-align: center;
+  top: 460px;
   span {
     color: white;
   }
@@ -30,9 +36,41 @@ header {
   color: #f29d26;
 }
 
-.box3 {
+.boxs {
   display: flex;
   justify-content: center;
-  gap: 25px;
-  margin-top: 130px;
+  gap: 120px;
+  position: relative;
+  top: 1000px;
+  text-transform: uppercase;
+
+  padding-bottom: 250px;
+
+  .img {
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 150px;
+    width: 150px;
+  }
+  .box1,
+  .box2,
+  .box3 {
+    color: rgba(40, 54, 70, 1);
+    background-color: rgb(114, 130, 151);
+    width: 450px;
+    height: 450px;
+    border-radius: 25px;
+    h5 {
+      font-size: 20px;
+      text-align: left;
+    }
+    b {
+      font-size: 80px;
+      text-align: left;
+    }
+    .small {
+      font-size: 30px;
+      text-align: left;
+    }
+  }
 }
