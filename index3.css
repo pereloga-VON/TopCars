@@ -27,25 +27,16 @@ header {
 }
 .firstPart {
   display: flex;
-  background: linear-gradient(top, white red);
-  span {
-    margin-right: 50%;
-  }
 }
-.YMFTOP {
-  margin-top: 30%;
-}
-.YMF {
+.infocar {
+  gap: 10;
   display: flex;
-  margin-top: 10%;
-  .ihiwbutton {
-    padding-left: 100px;
-  }
+  justify-content: space-between;
 }
-.boxYMF {
-  align-items: center;
-  width: 250px;
-  display: inline;
+.infocarhead {
+  margin-top: 30%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .ih {
@@ -56,8 +47,6 @@ header {
   border-color: rgba(208, 24, 24, 1);
   border-style: solid;
   color: rgba(208, 24, 24, 1);
-  margin-left: 10%;
-  margin-top: 5%;
 }
 .iw {
   background-color: rgba(208, 24, 24, 1);
